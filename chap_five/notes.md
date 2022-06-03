@@ -5,7 +5,7 @@ mimics the expression in which the variable might appear. The reasoning applies 
 dunction declarations as well. For example,
 
 ```c
-	double *dp, atof(char *);
+double *dp, atof(char *);
 ```
 
  says that in an expression `*dp` and `atof(s)` have values of the type 
@@ -16,8 +16,8 @@ By definition, the value of a variable or expression of type array is the addres
 
 ```c
 //So basically 
-int arr[LIMIT]; 
-//actually represents &arr[0]
+int arr[LIMIT]={/*some values*/};
+//'arr' actually represents &arr[0]
 ```
 *_THIS IS IMPORTANT_*
 
