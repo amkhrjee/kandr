@@ -27,3 +27,7 @@ In other words,
 Rather more surprising, at first sight, is the fact that a reference to `a[i]` can be written as `*(a+i)`. 
 
 There is one difference between an array name and a pointer that must be kept in mind. A pointer is a variable, so `pa=a` and `pa++` are legal. But an array name is not a variable; constructions like `a=pa` and `a++` are illegal.
+
+As formal parameters in a function definition, `char s[]` and `char *s` basically imply the same thing, the latter is more preferred as it explicitly states that s is a pointer. 
+
+It is possible to pass part of an array to a function, by passing a pointer to the beginning of the subarray. 
