@@ -20,7 +20,10 @@ int arr[LIMIT];
 //actually represents &arr[0]
 ```
 *_THIS IS IMPORTANT_*
+
 In other words,
 `Name of an array = location of the initial element`
 
 Rather more surprising, at first sight, is the fact that a reference to `a[i]` can be written as `*(a+i)`. 
+
+There is one difference between an array name and a pointer that must be kept in mind. A pointer is a variable, so `pa=a` and `pa++` are legal. But an array name is not a variable; constructions like `a=pa` and `a++` are illegal.
