@@ -31,3 +31,9 @@ There is one difference between an array name and a pointer that must be kept in
 As formal parameters in a function definition, `char s[]` and `char *s` basically imply the same thing, the latter is more preferred as it explicitly states that s is a pointer. 
 
 It is possible to pass part of an array to a function, by passing a pointer to the beginning of the subarray. 
+
+## The Zero Case of Pointers
+C ensures that 0 is never a valid address for data. 
+
+Pointers and integers are not interchangable. Zero is the only exception: the constant zero may be assigned to a pointer, and a pointer may be compared with the constant zero. The symbolic constant `NULL` is often used in place of zero, as a mnemonic to indicate more clearly that this is a special value for a pointer. `NULL` is defined in `<stdio.h>`. 
+
