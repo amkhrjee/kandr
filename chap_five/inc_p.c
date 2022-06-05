@@ -7,7 +7,7 @@ int main(){
 	for(int i = 0; i < 10; i++){
 		printf("ptr + %d = %p\n", i, ptr++); 
 	}
-	printf("The difference between two consecutive pointer value = %x", (ptr + 1) - ptr);	
+	printf("The difference between two consecutive pointer value = %x",(char *)(ptr + 1) -(char *) ptr);	
 	return 0;
 }
 
