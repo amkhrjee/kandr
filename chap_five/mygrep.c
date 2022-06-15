@@ -15,7 +15,7 @@ int main(int argc, char *argv[]){
 					printf("%s", line);
 					found++; 
 				}
-	printf("%d mateches found\n", found);
+	printf("%d matches found\n", found);
 	return found; 
 }
 // strstr(s, t) => returns a pointer to the first occurence of the string t in string s, or NULL if there is none. 
