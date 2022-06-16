@@ -20,3 +20,9 @@ Fun ptrs in C are extremely helpful but they are confusing because of their stra
  So, to sum up: 
  
  > `foo` is a pointer to a function that takes three `int`s and returns an `int *`
+
+It enables you to call functions within other functions by passing the pointer, that are defined at run-time and not at compile-time. 
+
+Well, on a seconds thought, it's actually not that confusing rather convenient. 
+
+So, again, thanks Daavid Ritchie!

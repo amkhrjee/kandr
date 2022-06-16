@@ -5,7 +5,7 @@ int main(){
 	x = 14; 
 	printf("x is %d\n", x);
 
-	in**ptr = &x; 
+	int *ptr = &x; 
 	printf("ptr is %x\n", ptr);
 
 	return 0;
