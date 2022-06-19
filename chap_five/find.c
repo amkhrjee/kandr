@@ -17,7 +17,8 @@ int main(int argc, char *argv[]){
 					number = 1; 
 					break; 
 				default:
-					printf("find: illegal option %c\n", c); 					argc = 0; 
+					printf("find: illegal option %c\n", c); 
+					argc = 0; 
 					found = -1; 
 					break; 
 			}
